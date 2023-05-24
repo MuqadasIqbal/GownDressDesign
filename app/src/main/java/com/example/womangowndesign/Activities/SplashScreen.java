@@ -1,10 +1,12 @@
-package com.example.womangowndesign;
+package com.example.womangowndesign.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.womangowndesign.R;
 
 public class SplashScreen extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.womangowndesign;
+package com.example.womangowndesign.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,7 +19,7 @@ ActivityMainBinding binding;
         binding.start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,StartActivity.class);
+                Intent intent=new Intent(MainActivity.this, StartActivity.class);
                 startActivity(intent);
             }
         });
